@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_devops_fully_automated_1694176262090-pr-trigger-input-set
+  identifier: Build_devops_fully_automated_1694176262090prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_devops_fully_automated_1694176262090
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
